@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALL HALLOWS FOUNDATION | Archive & Registry</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Fira+Code:wght@300;400;600&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        display: ['Cinzel', 'serif'],
+                        serif: ['Cormorant Garamond', 'Georgia', 'serif'],
+                        mono: ['Fira Code', 'monospace'],
+                    },
+                    colors: {
+                        voidBlack: '#0B0C10',
+                        obsidian: '#1F2833',
+                        gothicGold: '#D4AF37',
+                        parchment: '#E5DDC8',
+                        mutedSlate: '#C5C6C7',
+                        deepAmber: '#AA7C11'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #0B0C10;
+            color: #E5DDC8;
+            background-image: radial-gradient(rgba(212, 175, 55, 0.05) 1px, transparent 1px);
+            background-size: 24px 24px;
+        }
+        .gothic-border {
+            border: 1px solid rgba(212, 175, 55, 0.25);
+        }
+        .gothic-border:hover {
+            border-color: rgba(212, 175, 55, 0.7);
+        }
+        .text-glow {
+            text-shadow: 0 0 12px rgba(212, 175, 55, 0.3);
+        }
+    </style>
+</head>
+<body class="font-serif antialiased min-h-screen flex flex-col justify-between selection:bg-gothicGold selection:text-voidBlack">
+
+    <div>
+        <!-- Institutional Top Bar -->
+        <div class="bg-black/80 border-b border-gothicGold/20 font-mono text-[11px] py-2.5 px-6">
+            <div class="max-w-7xl mx-auto flex flex-wrap justify-between items-center gap-3">
+                <div class="flex items-center space-x-3 text-gothicGold">
+                    <span class="inline-block w-2 h-2 bg-gothicGold rotate-45"></span>
+                    <span class="tracking-widest uppercase">REGISTRATION ARCHIVE // DOS REF 201402</span>
+                </div>
+                <div class="flex items-center space-x-6 text-mutedSlate">
+                    <span>TAX ID / EIN: <strong class="text-parchment font-mono">133985651</strong></span>
+                    <span class="text-obsidian">|</span>
+                    <span>CRESTWOOD, NY 10707</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation Header -->
+        <header class="bg-voidBlack/90 backdrop-blur-md sticky top-0 z-50 border-b border-gothicGold/20">
+            <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
+                <!-- Typography Monogram Brand -->
+                <a href="#" class="flex items-center space-x-4 group">
+                    <div class="w-10 h-10 border border-gothicGold bg-gothicGold/10 flex items-center justify-center font-display text-gothicGold text-xl font-bold group-hover:bg-gothicGold group-hover:text-voidBlack transition-all">
+                        AH
+                    </div>
+                    <div>
+                        <span class="font-display text-lg tracking-widest text-parchment block leading-none">ALL HALLOWS</span>
+                        <span class="font-mono text-[9px] tracking-[0.3em] text-gothicGold uppercase block mt-1">FOUNDATION</span>
+                    </div>
+                </a>
+
+                <!-- Action Button -->
+                <a href="#dispatch" class="font-mono text-xs uppercase px-5 py-2.5 border border-gothicGold/50 text-gothicGold hover:bg-gothicGold hover:text-voidBlack transition-all tracking-widest">
+                    [ Submit Dispatch ]
+                </a>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="py-24 lg:py-32 border-b border-gothicGold/15 relative">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="max-w-4xl space-y-8">
+                    
+                    <div class="inline-flex items-center space-x-3 px-3 py-1 bg-obsidian border border-gothicGold/30 text-gothicGold font-mono text-xs">
+                        <span>NEW YORK CHARITABLE CORPORATION</span>
+                        <span>//</span>
+                        <span>EST. FILE 201402</span>
+                    </div>
+
+                    <h1 class="font-display text-4xl sm:text-6xl font-normal text-parchment tracking-tight leading-tight text-glow">
+                        ALL HALLOWS FOUNDATION
+                    </h1>
+
+                    <p class="text-xl sm:text-2xl text-mutedSlate font-light leading-relaxed max-w-3xl">
+                        An endowed non-profit entity based in Westchester County, New York. Constituted to manage philanthropic allocations, cultural stewardship, and institutional welfare initiatives under strict state governance.
+                    </p>
+
+                    <div class="pt-4 flex flex-wrap gap-4 font-mono text-xs">
+                        <a href="#registry" class="px-7 py-4 bg-gothicGold text-voidBlack font-bold uppercase tracking-widest hover:bg-parchment transition-all">
+                            Inspect Public Record ↓
+                        </a>
+                        <a href="#dispatch" class="px-7 py-4 border border-gothicGold/40 text-parchment uppercase tracking-widest hover:bg-obsidian transition-all">
+                            File Official Notice
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Main Registry Matrix -->
+        <main id="registry" class="max-w-7xl mx-auto px-6 py-20 space-y-16">
+            
+            <div class="flex flex-col md:flex-row md:items-end justify-between border-b border-gothicGold/30 pb-4">
+                <div>
+                    <span class="font-mono text-xs text-gothicGold uppercase tracking-widest block mb-1">// ARCHIVAL DOSSIER</span>
+                    <h2 class="font-display text-2xl sm:text-3xl text-parchment">Registered Corporate Specifications</h2>
+                </div>
+                <span class="font-mono text-xs text-mutedSlate mt-2 md:mt-0">SOURCE: ALLHALLOWS.MY.ID INDEX</span>
+            </div>
+
+            <!-- Grid Cards -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                
+                <!-- Spec 1 -->
+                <div class="bg-obsidian/60 p-8 gothic-border transition-all space-y-4">
+                    <span class="font-mono text-xs text-gothicGold uppercase block tracking-widest">01 / LEGAL ENTITY TITLE</span>
+                    <p class="font-display text-xl text-parchment">ALL HALLOWS FOUNDATION</p>
+                    <p class="font-sans text-xs text-mutedSlate">Registered Non-Profit Corporation</p>
+                </div>
+
+                <!-- Spec 2 -->
+                <div class="bg-obsidian/60 p-8 gothic-border transition-all space-y-4">
+                    <span class="font-mono text-xs text-gothicGold uppercase block tracking-widest">02 / TAX ID & DOS NO.</span>
+                    <p class="font-mono text-2xl text-gothicGold">133985651</p>
+                    <p class="font-mono text-xs text-mutedSlate">NYS DOS Filing Sequence: <strong class="text-parchment">201402</strong></p>
+                </div>
+
+                <!-- Spec 3 -->
+                <div class="bg-obsidian/60 p-8 gothic-border transition-all space-y-4">
+                    <span class="font-mono text-xs text-gothicGold uppercase block tracking-widest">03 / DOMICILE LOCATION</span>
+                    <p class="font-mono text-sm text-parchment font-bold leading-snug">360 HOLLYWOOD AVENUE</p>
+                    <p class="font-mono text-xs text-mutedSlate">CRESTWOOD, NY 10707, USA</p>
+                </div>
+
+                <!-- Spec 4 -->
+                <div class="bg-obsidian/60 p-8 gothic-border transition-all space-y-4">
+                    <span class="font-mono text-xs text-gothicGold uppercase block tracking-widest">04 / WEB ENDPOINT</span>
+                    <a href="http://ALLHALLOWS.my.id" target="_blank" class="font-mono text-sm text-gothicGold hover:underline block truncate">
+                        ALLHALLOWS.my.id
+                    </a>
+                    <p class="font-sans text-xs text-mutedSlate">Public Registry Verification Portal</p>
+                </div>
+
+                <!-- Spec 5 -->
+                <div class="bg-obsidian/60 p-8 gothic-border transition-all space-y-4">
+                    <span class="font-mono text-xs text-gothicGold uppercase block tracking-widest">05 / OFFICIAL DESK EMAIL</span>
+                    <a href="mailto:contact@ALLHALLOWS.my.id" class="font-mono text-xs text-parchment hover:text-gothicGold block truncate">
+                        contact@ALLHALLOWS.my.id
+                    </a>
+                    <p class="font-sans text-xs text-mutedSlate">Official Communication Desk</p>
+                </div>
+
+                <!-- Spec 6 -->
+                <div class="bg-obsidian/60 p-8 gothic-border transition-all space-y-4">
+                    <span class="font-mono text-xs text-gothicGold uppercase block tracking-widest">06 / CHARTER STATUS</span>
+                    <p class="font-mono text-sm text-emerald-400 font-bold">ACTIVE &amp; GOOD STANDING</p>
+                    <p class="font-sans text-xs text-mutedSlate">Jurisdiction: State of New York</p>
+                </div>
+
+            </div>
+
+            <!-- Statement Panel -->
+            <section class="bg-obsidian/40 border border-gothicGold/20 p-8 lg:p-12 space-y-6">
+                <div class="max-w-3xl space-y-4">
+                    <span class="font-mono text-xs text-gothicGold uppercase tracking-widest block">// CHARTER STATEMENT</span>
+                    <h3 class="font-display text-2xl text-parchment">Institutional Purpose & Oversight</h3>
+                    <p class="text-mutedSlate font-light leading-relaxed">
+                        The <strong>ALL HALLOWS FOUNDATION</strong> operates from its registered office in Crestwood, New York. The foundation is dedicated to structured grantmaking, societal benefit projects, and institutional endowments, complying with all regulatory standards mandated by the State of New York.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Contact Form -->
+            <section id="dispatch" class="bg-black/60 border border-gothicGold/30 p-8 lg:p-12 space-y-8">
+                <div class="border-b border-gothicGold/20 pb-6 flex flex-col md:flex-row md:items-center justify-between gap-4">
+                    <div>
+                        <span class="font-mono text-xs text-gothicGold uppercase tracking-widest block mb-1">// TRANSMISSION INTERFACE</span>
+                        <h3 class="font-display text-2xl text-parchment">Submit Formal Notice</h3>
+                    </div>
+                    <div class="font-mono text-xs text-mutedSlate">
+                        DIRECT INBOX: <span class="text-gothicGold">contact@ALLHALLOWS.my.id</span>
+                    </div>
+                </div>
+
+                <form onsubmit="event.preventDefault(); alert('Your dispatch has been registered for trustee review.');" class="space-y-6 font-mono text-xs">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="space-y-2">
+                            <label class="text-mutedSlate uppercase block">CORRESPONDENT NAME / ENTITY *</label>
+                            <input type="text" required class="w-full p-3.5 bg-obsidian border border-gothicGold/20 text-parchment focus:outline-none focus:border-gothicGold">
+                        </div>
+                        <div class="space-y-2">
+                            <label class="text-mutedSlate uppercase block">RETURN EMAIL *</label>
+                            <input type="email" required class="w-full p-3.5 bg-obsidian border border-gothicGold/20 text-parchment focus:outline-none focus:border-gothicGold">
+                        </div>
+                    </div>
+
+                    <div class="space-y-2">
+                        <label class="text-mutedSlate uppercase block">SUBJECT / REFERENCE *</label>
+                        <input type="text" required class="w-full p-3.5 bg-obsidian border border-gothicGold/20 text-parchment focus:outline-none focus:border-gothicGold" placeholder="e.g., Verification / Grant Inquiry">
+                    </div>
+
+                    <div class="space-y-2">
+                        <label class="text-mutedSlate uppercase block">DISPATCH BODY *</label>
+                        <textarea rows="5" required class="w-full p-3.5 bg-obsidian border border-gothicGold/20 text-parchment focus:outline-none focus:border-gothicGold" placeholder="Enter official statement or query..."></textarea>
+                    </div>
+
+                    <button type="submit" class="w-full py-4 bg-gothicGold text-voidBlack font-bold uppercase tracking-widest hover:bg-parchment transition-colors">
+                        DISPATCH NOTICE &rarr;
+                    </button>
+                </form>
+            </section>
+
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer class="border-t border-gothicGold/20 bg-black/80 py-12 font-mono text-xs text-mutedSlate">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
+            <div class="space-y-1">
+                <p class="font-display text-sm font-bold text-parchment">ALL HALLOWS FOUNDATION</p>
+                <p class="text-mutedSlate">360 HOLLYWOOD AVENUE, CRESTWOOD, NY 10707</p>
+                <p class="text-mutedSlate/60">EIN: 133985651 | DOS REF: 201402</p>
+            </div>
+            <div class="text-left md:text-right space-y-1">
+                <p>&copy; ALL HALLOWS FOUNDATION. ALL RIGHTS RESERVED.</p>
+                <p class="text-gothicGold/70">DARK ARCHIVAL STYLING • ZERO IMAGE DEPENDENCY</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
